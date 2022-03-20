@@ -9,7 +9,7 @@ pipeline {
         }
         stage('build'){
             steps{
-                bat 'npm run ng build'
+                echo 'npm run ng build'
             }
         }
     }
